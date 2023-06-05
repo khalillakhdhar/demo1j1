@@ -1,4 +1,4 @@
-<form>
+<form (submit)="envoyer()">
 nom:<input [(ngModel)]="nom" type="text" name="nom" placeholder="votre nom ici"><br>
 email:<input [(ngModel)]="email" type="text" name="email" placeholder="votre prénom ici"><br>
 Message:
@@ -6,7 +6,7 @@ Message:
 <textarea [(ngModel)]="message" name="message"></textarea>
 <br>
 {{nom}} {{email}}  {{message}}
-
+<button type="submit" class="btn btn-primary"  >Envoyer</button>
 
 
 </form>

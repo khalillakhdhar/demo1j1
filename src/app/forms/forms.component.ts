@@ -9,5 +9,11 @@ export class FormsComponent {
   email="";
   nom:string="";
   message="";
-
+envoyer()
+{
+  alert("envoyé avec succés");
+  this.message="";
+  this.email = "";
+  this.nom = "";
+}
 }
