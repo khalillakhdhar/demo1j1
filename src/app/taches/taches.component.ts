@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class TachesComponent {
 taches=["t1", "t2", "t3", "t4"];
+visible=false;
 }
