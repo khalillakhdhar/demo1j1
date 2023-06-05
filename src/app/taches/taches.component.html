@@ -1,5 +1,9 @@
-<ul>
+<br>
+<button (click)="visibility()">Changer la visibilité</button>
+<br>
+<ul *ngIf="visible">
   <li *ngFor="let t of taches">
     {{ t }}
   </li>
 </ul>
+
