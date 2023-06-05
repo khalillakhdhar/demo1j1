@@ -5,3 +5,22 @@
 
 
 </ul>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Prénom</th>
+      <th>Exprience</th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr *ngFor="let f of formateurs">
+      <td>{{f.nom}}</td>
+      <td>{{f.prenom}}</td>
+      <td>{{f.experience}}</td>
+
+
+    </tr>
+  </tbody>
+</table>

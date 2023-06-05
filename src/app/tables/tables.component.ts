@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TablesComponent {
   technos=['angular','spring','symfony','php','java'];
-formateur=[
+formateurs=[
   {nom:"Lakhdhar",prenom:"Khalil",experience:12},
   {nom:"F2nom",prenom:"F2prénom",experience:10},
   {nom:"F3nom",prenom:"F3prénom",experience:3},
