@@ -1,1 +1,12 @@
-<p>forms works!</p>
+<form>
+nom:<input [(ngModel)]="nom" type="text" name="nom" placeholder="votre nom ici"><br>
+email:<input [(ngModel)]="email" type="text" name="email" placeholder="votre prénom ici"><br>
+Message:
+<br>
+<textarea [(ngModel)]="message" name="message"></textarea>
+<br>
+{{nom}} {{email}}  {{message}}
+
+
+
+</form>
