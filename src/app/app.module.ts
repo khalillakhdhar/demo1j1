@@ -7,6 +7,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { TachesComponent } from './taches/taches.component';
 import { CompteurComponent } from './compteur/compteur.component';
 import { TablesComponent } from './tables/tables.component';
+import { FormsComponent } from './forms/forms.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import { TablesComponent } from './tables/tables.component';
     WelcomeComponent,
     TachesComponent,
     CompteurComponent,
-    TablesComponent
+    TablesComponent,
+    FormsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

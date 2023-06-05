@@ -1,3 +1,8 @@
+<h2>
+  {{titre | uppercase}}
+</h2>
+<p>Date actuelle : {{ dateValue | date:'dd/MM/yyyy' }}</p>
+
 <ul>
 <li *ngFor="let tech of technos">
   {{ tech }}

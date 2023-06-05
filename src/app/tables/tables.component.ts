@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Directive } from '@angular/core';
 
 @Component({
   selector: 'app-tables',
@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./tables.component.css']
 })
 export class TablesComponent {
+  //@Directive({ selector:"[ccCardHover]"}) n'est plus utilisé
+titre ="les tableaux angular";
+dateValue: Date = new Date();
+
   technos=['angular','spring','symfony','php','java'];
 formateurs=[
   {nom:"Lakhdhar",prenom:"Khalil",experience:12},
