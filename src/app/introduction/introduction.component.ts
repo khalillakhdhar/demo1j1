@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./introduction.component.css']
 })
 export class IntroductionComponent {
-  nom: string="Lakhdhar";
-  prenom: string="Khalil";
+  nom:string="Lakhdhar";
+  prenom:string="Khalil";
 
 }
