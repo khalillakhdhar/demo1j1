@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CompteurComponent {
   compteurValue:number=0;
+  jour="4";
   increment()
   {
     this.compteurValue++;

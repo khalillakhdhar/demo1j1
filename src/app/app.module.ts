@@ -6,6 +6,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TachesComponent } from './taches/taches.component';
 import { CompteurComponent } from './compteur/compteur.component';
+import { TablesComponent } from './tables/tables.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CompteurComponent } from './compteur/compteur.component';
     IntroductionComponent,
     WelcomeComponent,
     TachesComponent,
-    CompteurComponent
+    CompteurComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule
